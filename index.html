@@ -20,32 +20,56 @@
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="hero">
-    <h2>Hi, I'm Khadar 👋</h2>
+ <section class="section" id="home">
+  <div class="background"></div>
+  <div class="content">
+    <h1>Hi, I'm Khadar 👋</h1>
     <p>I'm a web developer passionate about building beautiful websites.</p>
-    <button onclick="scrollToSection('projects')">View My Work</button>
-  </section>
-
+    <button onclick="scrollToSection('projects')" class="btn">View My Work</button>
+  </div>
+</section>
   <!-- About Section -->
-  <section id="about" class="about">
+<section class="section" id="about">
+  <div class="background" style="background-image: url('images/backgrounds/bg2.jpg');"></div>
+  <div class="content">
     <h2>About Me</h2>
     <p>I’m a front-end developer who loves bringing ideas to life through code.</p>
-  </section>
+  </div>
+</section>
 
   <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Project 1</h3>
-        <p>Short description of your project here.</p>
-      </div>
-      <div class="project-card">
-        <h3>Project 2</h3>
-        <p>Another cool project description here.</p>
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="images/project1.png" alt="Project 1" />
+      <div class="project-content">
+        <h3>Spam Classifier</h3>
+        <p>Automatically detects and filters spam messages from emails or SMS using machine learning.</p>
+        <a href="https://github.com/Khadar190798/Spam-Classfier" class="btn">View Project</a>
       </div>
     </div>
-  </section>
+
+    <div class="project-card">
+      <img src="images/project2.png" alt="Project 2" />
+      <div class="project-content">
+        <h3>Finance Tracker</h3>
+        <p>Helps users monitor income, expenses, and savings to manage their finances effectively.</p>
+        <a href="https://github.com/Khadar190798/Personal-Finance-Tracker-Python" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project3.png" alt="Project 3" />
+      <div class="project-content">
+        <h3>Car Price Predictor</h3>
+        <p>Predicts used car prices based on features like make, model, year, mileage, and condition.</p>
+        <a href="https://github.com/Khadar190798/Car_Price_Prediction" class="btn">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Contact Section -->
   <section id="contact" class="contact">
